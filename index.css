@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center ;
+}
+
+.formI
+{   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 10px;
+    vertical-align: top;
+    width: 25%;   
+}
+
+.group
+{
+    display: block;
+    text-align: left;
+}
+
+.groupC
+{
+    display: inline-block;
+    text-align: center;
+}
+
+label
+{
+    display: inline-block; 
+    text-align: left;
+    font-size: 12px;
+}
+
+
+input, 
+select
+{
+    width: 95%;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"]
+{
+    height: 3em;
+    margin-top: 3%;
+    margin-bottom: 0;
+    background: #1668C4;
+    color: #fff ;
+    border: none;
+    text-align: center;
+}
